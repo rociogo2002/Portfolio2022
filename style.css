@@ -203,9 +203,13 @@ img{
     border-radius: 15px;
     width: 150px;
     height: 40px;
-    
-
-    
+    background-color: var(--first-color);
+    border: none;
+     color: #FAFAFF;
+}
+.download_CV__button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 .home__scroll-link{
     writing-mode: vertical-lr;
